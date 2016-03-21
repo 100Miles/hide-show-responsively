@@ -5,7 +5,7 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -13,10 +13,7 @@ html {
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
-}
-
-body {
+  box-sizing: inherit;
 }
 
 img {
@@ -35,7 +32,7 @@ img:nth-child(2) {
 
   img {
     display: inline-block;
-    width: 48%;
+    width: 49%;
   }
 
   img:last-child {
@@ -54,11 +51,15 @@ img:nth-child(2) {
   }
 
   img:last-child {
-    display: none;
+    display: inline-block;
   }
 
   img:nth-child(2) {
     display: inline-block;
+  }
+
+  img:nth-child(1) {
+    display: none;
   }
 }
 
@@ -74,5 +75,9 @@ img:nth-child(2) {
 
   img:nth-child(2) {
     display: inline-block;
+  }
+
+  img:nth-child(1) {
+    display: inline-block;;
   }
 }
